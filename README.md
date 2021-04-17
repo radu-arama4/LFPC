@@ -2,15 +2,15 @@
 Repository for my lab works on LFPC.
 
 Lab 3 - answer
-A -> b
-B -> b
-S -> X1 A
-X1 -> X2 X3
-A -> X4 X5
-X4 -> X2 S
-X5 -> X2 X3
-A -> X4 X6
-X6 -> B X5
+A -> b <br />
+B -> b<br />
+S -> X1 A<br />
+X1 -> X2 X3<br />
+A -> X4 X5<br />
+X4 -> X2 S<br />
+X5 -> X2 X3<br />
+A -> X4 X6<br />
+X6 -> B X5<br />
 A -> X7 X8
 X7 -> X2 B
 X8 -> S X5
