@@ -1,7 +1,7 @@
 # LFPC
 Repository for my lab works on LFPC.
 
-Lab 3 - answer
+Lab 3 - answer<br />
 A -> b <br />
 B -> b<br />
 S -> X1 A<br />
