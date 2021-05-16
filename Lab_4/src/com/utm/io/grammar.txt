@@ -1,0 +1,10 @@
+VN={S,A,B,D}
+VT={a,b,c,d}
+P={
+S->dB
+B->D
+B->DcB
+D->bA
+A->a
+A->aA
+}
