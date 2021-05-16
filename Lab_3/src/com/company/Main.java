@@ -15,20 +15,14 @@ import static com.company.Parse.ParseUtil.*;
 import static com.company.Conversion.ConversionUTIL.convertToCNF;
 
 public class Main {
-
-    static private String[] nonTerm = new String[]{};
-    static private String[] term = new String[]{};
-    static private List<Production> productions = new ArrayList<>();
-
-    static private int[][] myBinary = new int[4][4];
-    static private int i = 0;
-    static private int j = 0;
-
     public static void main(String[] args) {
         String filePath = new File("src/com/company/IO/input.txt").getAbsolutePath();
         String content = readLineByLine(filePath);
+        
+        //Parsing the grammar from the input.txt file
         readGrammar(content);
 
+        //Converting to CNF
         convertToCNF(getNonTerm(), getTerm(), getProductions());
 
     }
